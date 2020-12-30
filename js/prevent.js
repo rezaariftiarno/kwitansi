@@ -6,5 +6,5 @@ element.__defineGetter__("id", function() {
 setInterval(function() {
 devtoolsOpen = false;
 console.log(element);
-document.getElementById('output').innerHTML = (devtoolsOpen ? location.replace("view-source:https://rezaariftiarno.github.io/kwitansi/") : "dev tools is closed\n");
+document.getElementById('output').innerHTML = (devtoolsOpen ? location.replace("oops.html") : "dev tools is closed\n");
 });
